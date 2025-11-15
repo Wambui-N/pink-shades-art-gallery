@@ -5,71 +5,71 @@
 /* --- FONT FACES --- */
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Light.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/Satoshi-LightItalic.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-LightItalic.otf') format('opentype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Regular.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Italic.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Italic.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Medium.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/Satoshi-MediumItalic.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-MediumItalic.otf') format('opentype');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Midnight Galactic";
-  src: url("/fonts/Midnight Gelactic DEMO VERSION.ttf") format("truetype");
+  font-family: 'Midnight Galactic';
+  src: url('/fonts/Midnight-Galactic.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  letter-spacing: 0.01em;
 }
+
 
 :root {
   --text: #410012;
   --background: #ffeff2;
   --primary: #f75590;
-  --secondary: #e91e63;
-  --accent: #f48fb1;
+  --secondary: #cc99a7;
+  --accent: #c02178;
 
-  --font-body: "Satoshi", sans-serif;
-  --font-title: "Midnight Galactic", sans-serif;
+  --font-body: 'Satoshi', sans-serif;
+  --font-title: 'Midnight Galactic', sans-serif;
 }
 
 body {
@@ -80,12 +80,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-title);
-  color: var(--secondary);
 }
